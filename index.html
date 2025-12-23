@@ -625,9 +625,16 @@
                 <div class="container">
                     <h1>Secure & Professional Payment Solutions</h1>
                     <p>Experience seamless and protected transactions with our state-of-the-art payment gateway. Your security is our top priority.</p>
-                    <button class="proceed-btn" onclick="showPage('payment-page')">
-                        Proceed to Payment <i class="fas fa-arrow-right"></i>
+                    <!-- <button class="proceed-btn" onclick="showPage('payment-page')"> -->
+                        <!-- Proceed to Payment <i class="fas fa-arrow-right"></i> -->
+                    <button>
+            <a href="upi://pay?pa=8078191047@upi&pn=SeatWorld&am=4&cu=INR&tn=Order123">
+                  Pay with Google Pay
+                        </a>
                     </button>
+
+
+                    <!-- </button> -->
                 </div>
             </section>
 
@@ -1210,4 +1217,5 @@
         }
     </script>
 </body>
+
 </html>
